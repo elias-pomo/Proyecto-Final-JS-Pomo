@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "imagen": "../img/top1.jpeg",
+        "precio": 5000,
+        "categoria": "top",
+        "stock": 15,
+        "color": "blanco",
+        "talle": "s",
+        "titulo": "Top rolling stone"
+    },
+    {
+        "id": 2,
+        "imagen": "../img/top2.jpeg",
+        "precio": 4600,
+        "categoria": "top",
+        "stock": 8,
+        "color": "verde",
+        "talle": "s",
+        "titulo": "Top militar"
+    },
+    {
+        "id": 3,
+        "imagen": "../img/top3.jpeg",
+        "precio": 4800,
+        "categoria": "top",
+        "stock": 10,
+        "color": "negro",
+        "talle": "s",
+        "titulo": "Top espacial"
+    },
+    {
+        "id": 4,
+        "imagen": "../img/top4.jpeg",
+        "precio": 5200,
+        "categoria": "top",
+        "stock": 5,
+        "color": "negro",
+        "talle": "s",
+        "titulo": "Top Glamour"
+    },
+    {
+        "id": 5,
+        "imagen": "../img/short1.jpeg",
+        "precio": 8500,
+        "categoria": "short",
+        "stock": 10,
+        "color": "celeste",
+        "talle": 46,
+        "titulo": "Short de jean"
+    },
+    {
+        "id": 6,
+        "imagen": "../img/short2.jpeg",
+        "precio": 8600,
+        "categoria": "short",
+        "stock": 10,
+        "color": "celeste",
+        "talle": 46,
+        "titulo": "short de jean clasic"
+    },
+    {
+        "id": 7,
+        "imagen": "../img/pantalon1.jpeg",
+        "precio": 12000,
+        "categoria": "pantalon",
+        "stock": 12,
+        "color": "celeste",
+        "talle": 48,
+        "titulo": "Pantalon wadeleg jean"
+    },
+    {
+        "id": 8,
+        "imagen": "../img/pantalon2.jpeg",
+        "precio": 13800,
+        "categoria": "pantalon",
+        "stock": 7,
+        "color": "negro",
+        "talle": 48,
+        "titulo": "Pantalon Engomado"
+    },
+    {
+        "id": 9,
+        "imagen": "../img/pantalon3.jpeg",
+        "precio": 12800,
+        "categoria": "pantalon",
+        "stock": 10,
+        "color": "negro",
+        "talle": 46,
+        "titulo": "Pantalon Clasic"
+    },
+    {
+        "id": 10,
+        "imagen": "../img/pantalon4.jpeg",
+        "precio": 15000,
+        "categoria": "pantalon",
+        "stock": 3,
+        "color": "beige",
+        "talle": 46,
+        "titulo": "Pantalon Star"
+    }
+]

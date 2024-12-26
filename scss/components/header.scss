@@ -1,0 +1,149 @@
+header {
+    height: 90px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            margin-left: 50px;
+            height: 80px;
+            width: 80px;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            font-size: 25px
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+            margin-right: 50px;
+
+            a {
+                color: white;
+                font-size: 15px;
+                margin: 10px;
+                text-decoration: none;
+            }
+
+            .dropdown {
+                button {
+                    img {
+                        height: 45px;
+                        width: 45px;
+                    }
+                }
+
+                .dropdown-menu {
+                    border: 2px solid black;
+
+                    .carrito1 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 20px;
+
+                        h2 {
+                            font-size: 25px;
+                            font-weight: 400;
+                            border-bottom: 1px solid black;
+                            margin-bottom: 30px;
+                        }
+
+                        .mini-card {
+
+                            border-radius: 0px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            border: 1px solid #000000;
+                            box-shadow: 3px 3px 3px black;
+                            padding: 15px;
+                            margin-bottom: 10px;
+
+                            // Anidamiento para estilizar elementos dentro de la mini tarjeta
+                            .mini-card-img {
+                                width: 80px;
+                                box-shadow: 1px 1px 1px black;
+                                height: 80px;
+                                margin: 10px;
+                                border-radius: 5px; // Agregar bordes redondeados
+                            }
+
+                            .mini-card-info {
+                                border: none;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                width: 100%;
+
+                                p {
+                                    color: #000;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    width: 150px;
+                                    margin: 0px;
+                                }
+                            }
+
+                            // Estilos para el botón de eliminar
+                            .btn-danger {
+                                background-color: #e90d23;
+                                font-size: 10px;
+                                font-weight: 500;
+                                color: white;
+                                width: 70%;
+                                border: 1px solid black;
+                                padding: 5px 10px;
+                                cursor: pointer;
+                                border-radius: 5px;
+
+                                &:hover {
+                                    // Efecto hover
+                                    background-color: #ff0019;
+                                }
+                            }
+                        }
+
+                        .total-carrito {
+                            display: flex;
+                            flex-direction: row-reverse;
+                            width: 100%;
+                            margin-top: 50px;
+                            margin-bottom: 20px;
+
+                            strong {
+                                font-size: 25px;
+                                font-weight: 500;
+                                border-bottom: 1px solid black;
+
+                            }
+                        }
+
+                        .btn-cp {
+                            margin: 15px;
+                            border: 1px solid white;
+                            background-color: green;
+                            width: 60%;
+                            font-size: 25px;
+                            border-radius: 35px;
+                            color: white;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

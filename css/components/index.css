@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Serif", serif;
+  font-style: normal;
+  text-align: center;
+}
+
+main {
+  background-image: url(../img/fondo.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+main .hero {
+  margin-top: 90px;
+  height: 520px;
+  width: 100%;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+}
+main .hero div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+main .hero div h1 {
+  background-color: rgba(0, 0, 0, 0.5803921569);
+  color: white;
+  align-items: center;
+  font-weight: 200;
+  font-size: 120px;
+  margin-top: 30px;
+  border: 5px double white;
+  height: 40%;
+  width: 40%;
+  transition: all 2s;
+}
+main .hero div h1:hover {
+  background-color: rgba(255, 255, 255, 0.555);
+  color: black;
+  transform: scale(1.1);
+}
+main .hero div p {
+  background-color: rgba(0, 0, 0, 0.4588235294);
+  width: 100%;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+}
+main .botones {
+  height: 400px;
+}
+main .botones div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+main .botones div .boton-clase {
+  background-image: url(../img/button.jpg);
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px black;
+  margin: 40px;
+  height: 350px;
+  width: 250px;
+  transition: 1s;
+}
+main .botones div .boton-clase:hover {
+  transform: scale(1.07, 1.07);
+}
+main .catalogo {
+  margin: 30px;
+  height: auto;
+  border-top: 5px double white;
+  border-bottom: 5px double white;
+}
+main .catalogo .catalogo-1 {
+  margin: 30px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .catalogo .catalogo-1 h2 {
+  color: black;
+  font-size: 70px;
+  font-weight: 250;
+  width: 80%;
+  margin: 20px;
+  border-top: 5px double black;
+  border-bottom: 5px double black;
+}
+main .catalogo .catalogo-1 h3 {
+  margin: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: rgba(255, 194, 147, 0.534);
+  width: 100%;
+  border-radius: 100px;
+}
+main .catalogo .catalogo-1 div {
+  margin: 30px;
+}
+main .catalogo .catalogo-1 div input {
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+}
+main .catalogo .catalogo-1 div button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-weight: 250;
+  transition: all 1s;
+}
+main .catalogo .catalogo-1 div button:hover {
+  color: black;
+  background-color: white;
+}
+main .catalogo .catalogo-1 .productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+main .catalogo .catalogo-1 .productos .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+}
+main .catalogo .catalogo-1 .productos .card:hover {
+  transform: scale(1.1);
+}
+main .catalogo .catalogo-1 .productos .card .card-img-top {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+main .catalogo .catalogo-1 .productos .card .card-body {
+  margin: 0px;
+}
+main .catalogo .catalogo-1 .productos .card .card-body .card-tittle {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+main .catalogo .catalogo-1 .productos .card .card-body .card-text {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+main .catalogo .catalogo-1 .productos .card .card-body .btn {
+  background-color: #0091ff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 110%;
+  font-size: 17px;
+}
+main .catalogo .catalogo-1 .productos .card .card-body .btn:hover {
+  background-color: #0056b3;
+}
+main .catalogo .carro {
+  height: auto;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+main .catalogo .carro h2 {
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  font-weight: 350;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(255, 194, 147, 0.534);
+  border-radius: 35px;
+}
+
+footer h2 {
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */

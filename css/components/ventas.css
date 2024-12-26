@@ -1,0 +1,50 @@
+.ventas {
+  height: auto;
+}
+.ventas .espaciado {
+  height: auto;
+}
+.ventas .espaciado .espacio {
+  height: 150px;
+}
+.ventas .tabla-ventas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ventas .tabla-ventas h1 {
+  color: black;
+  font-size: 100px;
+  font-weight: 250;
+  width: 100%;
+  margin: 50px;
+  border-top: 5px double black;
+  border-bottom: 5px double black;
+}
+.ventas .tabla-ventas .contenedor-venta {
+  width: 100%;
+  border: 2px solid black;
+  margin: 50px;
+}
+.ventas .tabla-ventas .contenedor-venta .tarjeta-venta {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom: 2px solid black;
+}
+.ventas .tabla-ventas .contenedor-venta .tarjeta-venta p {
+  font-size: 35px;
+}
+.ventas .tabla-ventas .contenedor-venta .tarjeta-venta ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.ventas .tabla-ventas .contenedor-venta .tarjeta-venta ul li {
+  align-items: start;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=ventas.css.map */

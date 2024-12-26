@@ -1,0 +1,48 @@
+.ventas{
+    height: auto;
+    .espaciado{
+        height: auto;
+        .espacio{
+            height: 150px;
+        }
+    }
+    .tabla-ventas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            color: black;
+            font-size: 100px;
+            font-weight: 250;
+            width: 100%;
+            margin: 50px;
+            border-top: 5px double black;
+            border-bottom: 5px double black;
+        }
+        .contenedor-venta{
+            width: 100%;
+            border: 2px solid black;
+            margin: 50px;
+            .tarjeta-venta{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                border-bottom: 2px solid black;
+                p{
+                    font-size: 35px;
+                }
+                ul{
+                    list-style-type: none;
+                    padding: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    li{
+                        align-items: start;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
