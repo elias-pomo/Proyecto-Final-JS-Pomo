@@ -1,3 +1,4 @@
+import { guardarVenta } from './ventas.js';
 
 // --- Funciones para crear y mostrar las tarjetas de productos ---
 const contenedor = document.getElementById("contenedor");
