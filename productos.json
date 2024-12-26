@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imagen": "../img/top1.jpeg",
+        "imagen": "./img/top1.jpeg",
         "precio": 5000,
         "categoria": "top",
         "stock": 15,
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "imagen": "../img/top2.jpeg",
+        "imagen": "./img/top2.jpeg",
         "precio": 4600,
         "categoria": "top",
         "stock": 8,
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "imagen": "../img/top3.jpeg",
+        "imagen": "./img/top3.jpeg",
         "precio": 4800,
         "categoria": "top",
         "stock": 10,
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "imagen": "../img/top4.jpeg",
+        "imagen": "./img/top4.jpeg",
         "precio": 5200,
         "categoria": "top",
         "stock": 5,
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "imagen": "../img/short1.jpeg",
+        "imagen": "./img/short1.jpeg",
         "precio": 8500,
         "categoria": "short",
         "stock": 10,
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "imagen": "../img/short2.jpeg",
+        "imagen": "./img/short2.jpeg",
         "precio": 8600,
         "categoria": "short",
         "stock": 10,
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "imagen": "../img/pantalon1.jpeg",
+        "imagen": "./img/pantalon1.jpeg",
         "precio": 12000,
         "categoria": "pantalon",
         "stock": 12,
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "imagen": "../img/pantalon2.jpeg",
+        "imagen": "./img/pantalon2.jpeg",
         "precio": 13800,
         "categoria": "pantalon",
         "stock": 7,
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "imagen": "../img/pantalon3.jpeg",
+        "imagen": "./img/pantalon3.jpeg",
         "precio": 12800,
         "categoria": "pantalon",
         "stock": 10,
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "imagen": "../img/pantalon4.jpeg",
+        "imagen": "./img/pantalon4.jpeg",
         "precio": 15000,
         "categoria": "pantalon",
         "stock": 3,
