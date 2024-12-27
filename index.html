@@ -14,6 +14,13 @@
 </head>
 
 <body>
+  <script type="module">
+    import { filtroCategoria } from './js/app.js';
+
+    window.filtrarPorCategoria = function() { 
+      filtroCategoria();
+    }
+  </script>
   <header>
     <div>
       <img src="./img/logo.png" alt="logo de umma con letras negras en un circulo">
@@ -54,7 +61,7 @@
         <H3>mira un poco de todo lo que tenemos para ofrecerte</H3>
         <div>
           <input type="text" id="categoriaRopa" placeholder="Ingrese la prenda que busca" />
-          <button onclick="filtroCategoria();"> Filtrar </button>
+          <button id="btn-filtrar"> Filtrar </button>
         </div>
         <div id="contenedor" class="productos"></div>
       </div>

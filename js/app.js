@@ -64,6 +64,9 @@ function crearCardProducto(producto) {
 
     return card;
 }
+const btnFiltrar = document.getElementById('btn-filtrar');
+
+btnFiltrar.addEventListener('click', filtroCategoria);
 
 async function filtroCategoria() {
     try {
@@ -181,3 +184,4 @@ function agregarAlCarrito(producto) {
 // --- Inicialización ---
 armadorTarjetas();
 document.addEventListener('DOMContentLoaded', actualizarCarrito);
+export { filtroCategoria };

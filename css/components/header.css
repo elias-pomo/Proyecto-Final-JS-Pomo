@@ -39,6 +39,8 @@ header div nav .dropdown button img {
 }
 header div nav .dropdown .dropdown-menu {
   border: 2px solid black;
+  max-height: 550px;
+  overflow-y: auto;
 }
 header div nav .dropdown .dropdown-menu .carrito1 {
   display: flex;

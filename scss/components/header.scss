@@ -46,7 +46,8 @@ header {
 
                 .dropdown-menu {
                     border: 2px solid black;
-
+                    max-height: 550px;
+                    overflow-y: auto; 
                     .carrito1 {
                         display: flex;
                         flex-direction: column;
