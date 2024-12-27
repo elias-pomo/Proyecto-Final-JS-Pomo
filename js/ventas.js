@@ -1,4 +1,4 @@
-export function guardarVenta(productosVendidos) {
+function guardarVenta(productosVendidos) {
     try {
         let ventas = JSON.parse(localStorage.getItem('ventas')) || []; // Obtener las ventas existentes o crear un array vacío
         ventas.push({ fecha: new Date(), productos: productosVendidos }); // Agregar la nueva venta con la fecha
@@ -10,7 +10,7 @@ export function guardarVenta(productosVendidos) {
     }
 }
 
-export function mostrarVentas() {
+function mostrarVentas() {
     try {
         const ventas = JSON.parse(localStorage.getItem('ventas')) || [];
         const contenedorVentas = document.getElementById('contenedor-ventas');
@@ -57,7 +57,7 @@ export function mostrarMensajeError(mensaje) {
 }
 
 
-export function mostrarMensaje(mensaje) {
+function mostrarMensaje(mensaje) {
     const mensajeElement = document.createElement("div");
     mensajeElement.textContent = mensaje;
     mensajeElement.className = "mensaje-usuario";
@@ -68,3 +68,5 @@ export function mostrarMensaje(mensaje) {
     }, 2000); // 3 segundos
 }
 document.addEventListener('DOMContentLoaded', mostrarVentas);
+
+export{guardarVenta};

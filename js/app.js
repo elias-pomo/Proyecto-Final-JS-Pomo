@@ -1,21 +1,8 @@
-
-
+import {guardarVenta} from "./ventas.js";
+import { mostrarMensajeError } from "./ventas.js";
 // --- Funciones para crear y mostrar las tarjetas de productos ---
 const contenedor = document.getElementById("contenedor");
-function mostrarMensajeError(mensaje) {
-    const mensajeElement = document.createElement("div");
-    mensajeElement.textContent = mensaje;
-    mensajeElement.className = "mensaje-error"; // Puedes agregar estilos CSS para esta clase
 
-    // Insertar el mensaje en un lugar visible de la página
-    const contenedorMensajes = document.getElementById("contenedor-mensajes"); // Reemplaza "contenedor-mensajes" con el ID de tu contenedor
-    if (contenedorMensajes) {
-        contenedorMensajes.appendChild(mensajeElement);
-    } else {
-        // Si no hay un contenedor específico, puedes agregar el mensaje al body
-        document.body.appendChild(mensajeElement);
-    }
-}
 async function armadorTarjetas() {
     try {
         const response = await fetch('productos.json');
@@ -190,22 +177,6 @@ function agregarAlCarrito(producto) {
     localStorage.setItem('carrito', JSON.stringify(Carrito));
     actualizarCarrito();
 }
-function mostrarMensajeError(mensaje) {
-    mostrarMensaje(mensaje);
-}
-
-
-function mostrarMensaje(mensaje) {
-    const mensajeElement = document.createElement("div");
-    mensajeElement.textContent = mensaje;
-    mensajeElement.className = "mensaje-usuario";
-    document.body.appendChild(mensajeElement);
-
-    setTimeout(() => {
-        document.body.removeChild(mensajeElement);
-    }, 2000); // 3 segundos
-}
-
 
 // --- Inicialización ---
 armadorTarjetas();
